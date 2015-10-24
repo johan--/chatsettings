@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/chatSettingsBackground"
+    android:columnCount="4"
+    android:rowCount="4"
+    android:paddingStart="8dp"
+    android:paddingLeft="8dp"
+    android:paddingEnd="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="16dp">
+
+    <ImageView
+        android:id="@+id/ivInvite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_person_add_black_48dp"
+        android:layout_columnWeight="1"/>
+
+    <ImageView
+        android:id="@+id/ivNotificationOff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_notifications_off_black_48dp"
+        android:layout_columnWeight="1"/>
+
+    <ImageView
+        android:id="@+id/ivUnblock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_lock_open_black_48dp"
+        android:layout_columnWeight="1"/>
+
+    <ImageView
+        android:id="@+id/ivSearchChat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_search_black_48dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Invite"
+        android:fontFamily="sans-serif-light"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Notification Off"
+        android:fontFamily="sans-serif-light"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Unblock"
+        android:fontFamily="sans-serif-light"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Search Chat"
+        android:fontFamily="sans-serif-light"
+        android:textSize="12sp"/>
+
+    <ImageView
+        android:id="@+id/ivShareLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_columnWeight="1"
+        android:src="@drawable/ic_location_on_black_48dp"/>
+
+    <ImageView
+        android:id="@+id/ivShareContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_columnWeight="1"
+        android:src="@drawable/ic_folder_shared_black_48dp"/>
+
+    <ImageView
+        android:id="@+id/ivTakePhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_columnWeight="1"
+        android:src="@drawable/ic_photo_camera_black_48dp"/>
+
+    <ImageView
+        android:id="@+id/ivTakeVideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_columnWeight="1"
+        android:src="@drawable/ic_videocam_black_48dp"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Share Location"
+        android:fontFamily="sans-serif-light"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Share Contact"
+        android:fontFamily="sans-serif-light"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Take a Photo"
+        android:fontFamily="sans-serif-light"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Take a Video"
+        android:fontFamily="sans-serif-light"
+        android:textSize="12sp"/>
+
+</GridLayout>
