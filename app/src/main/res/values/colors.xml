@@ -4,6 +4,6 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
 
+    <!-- Blue 100 -->
     <color name="chatSettingsBackground">#bbdefb</color>
-
 </resources>
