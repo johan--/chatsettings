@@ -13,11 +13,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        final ImageView ivShareLocation = (ImageView)findViewById(R.id.ivShareLocation);
-        ivShareLocation.setOnClickListener(new View.OnClickListener() {
+        final ImageView ivHomework = (ImageView)findViewById(R.id.ivHomework);
+        ivHomework.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, "You have shared your location", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "You have selected homework, well done :-)", Toast.LENGTH_SHORT).show();
             }
         });
     }

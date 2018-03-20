@@ -7,107 +7,53 @@
     android:background="@color/chatSettingsBackground"
     app:columnCount="4"
     app:rowCount="4"
-    android:paddingStart="8dp"
-    android:paddingLeft="8dp"
-    android:paddingEnd="8dp"
-    android:paddingRight="8dp"
-    android:paddingTop="8dp"
-    android:paddingBottom="16dp">
+    android:paddingStart="12dp"
+    android:paddingLeft="12dp"
+    android:paddingEnd="12dp"
+    android:paddingRight="12dp"
+    android:paddingTop="12dp"
+    android:paddingBottom="12dp">
 
     <!-- Row 1-->
     <ImageView
-        android:id="@+id/ivInvite"
-        android:src="@drawable/ic_person_add_black_48dp"
+        android:id="@+id/ivHomework"
+        android:src="@drawable/ic_homework"
         app:layout_columnWeight="1"/>
 
     <ImageView
-        android:id="@+id/ivNotificationOff"
-        android:src="@drawable/ic_notifications_off_black_48dp"
+        android:id="@+id/ivTextbooks"
+        android:src="@drawable/ic_textbooks"
         app:layout_columnWeight="1"/>
 
     <ImageView
-        android:id="@+id/ivUnblock"
-        android:src="@drawable/ic_lock_open_black_48dp"
+        android:id="@+id/ivCalendar"
+        android:src="@drawable/ic_calendar"
         app:layout_columnWeight="1"/>
 
     <ImageView
-        android:id="@+id/ivSearchChat"
-        android:src="@drawable/ic_search_black_48dp"
+        android:id="@+id/ivMynotes"
+        android:src="@drawable/ic_my_notes"
         app:layout_columnWeight="1"/>
 
     <!-- Row 2 -->
-    <TextView
-        app:layout_gravity="center_horizontal"
-        android:text="Invite"
-        android:fontFamily="sans-serif-light"
-        android:textSize="12sp" />
-
-    <TextView
-        app:layout_gravity="center_horizontal"
-        android:text="Notification Off"
-        android:fontFamily="sans-serif-light"
-        android:textSize="12sp"/>
-
-    <TextView
-        app:layout_gravity="center_horizontal"
-        android:text="Unblock"
-        android:fontFamily="sans-serif-light"
-        android:textSize="12sp"/>
-
-    <TextView
-        app:layout_gravity="center_horizontal"
-        android:text="Search Chat"
-        android:fontFamily="sans-serif-light"
-        android:textSize="12sp"/>
-
-    <!-- Row 3 -->
-    <ImageView
-        android:id="@+id/ivShareLocation"
-        android:layout_marginTop="16dp"
-        app:layout_columnWeight="1"
-        android:src="@drawable/ic_location_on_black_48dp"/>
 
     <ImageView
-        android:id="@+id/ivShareContact"
+        android:id="@+id/ivCamera"
         android:layout_marginTop="16dp"
         app:layout_columnWeight="1"
-        android:src="@drawable/ic_folder_shared_black_48dp"/>
+        android:src="@drawable/ic_camera"/>
 
     <ImageView
-        android:id="@+id/ivTakePhoto"
+        android:id="@+id/ivCalculator"
         android:layout_marginTop="16dp"
         app:layout_columnWeight="1"
-        android:src="@drawable/ic_photo_camera_black_48dp"/>
+        android:src="@drawable/ic_calculator"/>
 
     <ImageView
-        android:id="@+id/ivTakeVideo"
+        android:id="@+id/ivWikipedia"
         android:layout_marginTop="16dp"
         app:layout_columnWeight="1"
-        android:src="@drawable/ic_videocam_black_48dp"/>
+        android:src="@drawable/ic_wikipedia"/>
 
-    <!-- Row 4 -->
-    <TextView
-        app:layout_gravity="center_horizontal"
-        android:text="Share Location"
-        android:fontFamily="sans-serif-light"
-        android:textSize="12sp"/>
-
-    <TextView
-        app:layout_gravity="center_horizontal"
-        android:text="Share Contact"
-        android:fontFamily="sans-serif-light"
-        android:textSize="12sp"/>
-
-    <TextView
-        app:layout_gravity="center_horizontal"
-        android:text="Take a Photo"
-        android:fontFamily="sans-serif-light"
-        android:textSize="12sp"/>
-
-    <TextView
-        app:layout_gravity="center_horizontal"
-        android:text="Take a Video"
-        android:fontFamily="sans-serif-light"
-        android:textSize="12sp"/>
 
 </android.support.v7.widget.GridLayout>
